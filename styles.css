@@ -1,0 +1,92 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contact container styling */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Left form styling */
+.contact-left {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-left-title h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-left-title hr {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input and textarea styling */
+.contact-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] img {
+    width: 16px;
+    height: 16px;
+}
+
+/* Right side image styling */
+.contact-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-right img {
+    max-width: 100%;
+    border-radius: 8px;
+}
